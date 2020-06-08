@@ -46,8 +46,8 @@
     </header>
     <main>
       <!-- Герой -->
-      <section>
-        <h1>
+      <section class="hero">
+        <h1 class="section-title">
           ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />
           ДЛЯ ВАШЕГО БИЗНЕСА
         </h1>
@@ -55,14 +55,14 @@
       </section>
 
       <!-- Преимущества -->
-      <section>
-        <h2>Преимущества компании</h2>
+      <section class="features section">
+        <h2 class="section-title">Преимущества компании</h2>
 
-        <ul>
+        <ul class="feature-list list">
           <li>
             <img src="./images/features/antenna.svg" alt="Антенна" />
             <h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-            <p>
+            <p class="text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
@@ -95,9 +95,9 @@
       </section>
 
       <!-- Чем мы занимаемся -->
-      <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+      <section class="work section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
+        <ul class="list">
           <li>
             <a href="#">
               <img src="./images/box/box1.jpg" alt="Десктопные приложения" />
@@ -121,9 +121,9 @@
 
       <!-- Наша команда -->
       <!-- Макс во 2м занятии сазал, что логотипы соцсетей будем делать через CSS, картинки не нужны!!! -->
-      <section>
-        <h2>Наша команда</h2>
-        <ul lang="en">
+      <section class="command section">
+        <h2 class="section-title">Наша команда</h2>
+        <ul lang="en" class="list">
           <li>
             <a href="#"
               ><img src="./images/command/john.jpg" alt="John Smith photo"
@@ -131,7 +131,7 @@
             <h3>John Smith</h3>
             <p>Product Designer</p>
 
-            <ul>
+            <ul class="social list">
               <li>
                 <a href="#">
                   <img
@@ -169,7 +169,7 @@
             <h3>Marta Stewart</h3>
             <p>Frontend Developer</p>
 
-            <ul>
+            <ul class="social list">
               <li>
                 <a href="#">
                   <img
@@ -205,8 +205,9 @@
               <img src="./images/command/robert.jpg" alt="Robert Jakis photo" />
             </a>
             <h3>Robert Jakis</h3>
+            <p>Marketing</p>
 
-            <ul>
+            <ul class="social list">
               <li>
                 <a href="#">
                   <img
@@ -244,7 +245,7 @@
             <h3>Martin Doe</h3>
             <p>UI Designer</p>
 
-            <ul>
+            <ul class="social list">
               <li>
                 <a href="#">
                   <!-- Заменить CSS -->
@@ -281,11 +282,12 @@
           </li>
         </ul>
       </section>
-      <!-- Постоянные клиенты -->
-      <section>
-        <h2>Постоянные клиенты</h2>
 
-        <ul>
+      <!-- Постоянные клиенты -->
+      <section class="clients section">
+        <h2 class="section-title">Постоянные клиенты</h2>
+
+        <ul class="list">
           <li>
             <a href="#"
               ><img src="./images/clients/logo1.svg" alt="Логотип клиента 1"
@@ -319,23 +321,25 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="/">
+    <footer class="page-footer">
+      <a href="./index.html" class="logo">
         <!-- <img lang="en" src="./images/logo.svg" alt="Web Studio" /> - Макс говорит что это текст, а не картинка, и ОН ПРАВ!-->
-        Web Studio
+        <span class="logo-web">Web</span> Studio
       </a>
 
       <!-- Адресный список -->
       <address>
-        <ul>
+        <ul class="auth-nav list">
           <li>
-            <a href="https://goo.gl/maps/Y7odyiGdengHAg7r9"
+            <a
+              href="https://goo.gl/maps/Y7odyiGdengHAg7r9"
+              class="auth-nav-map link"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
 
           <li>
-            <a href="mailto:info@devstudio.com">
+            <a href="mailto:info@devstudio.com" class="link">
               <!-- Заменить CSS -->
               <img
                 src="./images/icon-mail.svg"
@@ -345,7 +349,7 @@
           </li>
 
           <li>
-            <a href="tel:+380961111111">
+            <a href="tel:+380961111111" class="link">
               <!-- Заменить CSS -->
               <img
                 src="./images/icon-smartphone.svg"
@@ -358,7 +362,7 @@
 
       <!-- Список соцсетей -->
       <p>ПРИСОЕДИНЯЙТЕСЬ</p>
-      <ul>
+      <ul class="list">
         <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
         <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
         <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>

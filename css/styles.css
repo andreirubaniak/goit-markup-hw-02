@@ -1,21 +1,28 @@
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --h3-color: #ffffff;
+}
+
 .list {
   list-style: none;
 }
 
 a {
   text-decoration: none;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 /* body */
 .page {
   background: #e5e5e5;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 /* header */
 .page-header {
-  background: #ffffff;
+  background: var(--h3-color);
 }
 
 /* logo */
@@ -33,23 +40,81 @@ a {
 }
 
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* site-nav */
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* auth-nav */
 .auth-nav .link {
-  color: #757575;
+  color: var(--text-color);
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+/* hero */
+.hero {
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.hero > .section-title {
+  color: var(--h3-color);
+}
+
+.hero a {
+  color: var(--h3-color);
+  background: var(--accent-color);
+}
+
+/* section */
+/* !!! */
+.section-title {
+  color: red;
+}
+
+/* features section */
+.feature-list img:hover {
+  background: var(--accent-color);
+}
+
+.feature-list p {
+  color: var(--text-color);
+}
+
+/* work section */
+.work h3 {
+  color: var(--h3-color);
+}
+
+/* command section */
+.command p {
+  color: var(--text-color);
+}
+
+.command .social a:hover,
+.command .social a:focus {
+  background-color: var(--accent-color);
+}
+
+/* clients section */
+/* !!! */
+.clients a:hover,
+.clients a:focus {
+  background-color: var(--accent-color);
+}
+
+/* page-footer */
+.auth-nav .auth-nav-map {
+  color: var(--h3-color);
+}
+.page-footer {
+  background: #2f303a;
 }
 
 /* цвет заголовков темный color: #212121; */
