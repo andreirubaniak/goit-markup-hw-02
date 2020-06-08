@@ -1,19 +1,3 @@
-:root {
-  --primary-text-color: #212121;
-  --text-color: #757575;
-  --accent-color: #2196f3;
-  --h3-color: #ffffff;
-}
-
-.list {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: var(--primary-text-color);
-}
-
 /* body */
 .page {
   background: #e5e5e5;
@@ -50,6 +34,10 @@ a {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 /* auth-nav */
 .auth-nav .link {
   color: var(--text-color);
@@ -65,11 +53,6 @@ a {
 
 .hero > .section-title {
   color: var(--h3-color);
-}
-
-.hero a {
-  color: var(--h3-color);
-  background: var(--accent-color);
 }
 
 /* section */
@@ -117,11 +100,45 @@ a {
   background: #2f303a;
 }
 
-/* цвет заголовков темный color: #212121; */
-/* цвет абзацев серый color: #757575; */
-/* вторичный белый color: #FFFFFF; */
-/* цвет web + :hover синий color: #2196F3; */
-/* цвет кнопок background: #2196F3; */
-/* цвет Studio черный color: #000000; */
-/* фон background: #E5E5E5; */
-/* вторичный background: #2F303A; */
+.page-footer .text {
+  color: var(--h3-color);
+}
+
+/* button */
+
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--accent-color);
+  /* font-size: 16px;
+  line-height: 30px;
+  width: 200px;
+  height: 50px;
+  left: 1185px;
+  top: 2764px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px; */
+}
+
+.button.primary {
+  color: var(--h3-color);
+}
+
+.hero-portfolio .button.secondary {
+  background: var(--bg-secondary-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--h3-color);
+  background-color: var(--accent-color);
+}
+
+/* portfolio */
+.project p {
+  color: var(--text-color);
+}
+
+.text-down {
+  color: rgba(255, 255, 255, 0.4);
+}
