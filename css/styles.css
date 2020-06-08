@@ -104,6 +104,10 @@
   color: var(--h3-color);
 }
 
+.logo-footer {
+  color: var(--h3-color);
+}
+
 /* button */
 
 .button {
