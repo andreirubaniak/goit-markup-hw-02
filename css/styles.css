@@ -1,6 +1,62 @@
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+}
+
+/* body */
+.page {
+  background: #e5e5e5;
+  color: #212121;
+}
+
+/* header */
+.page-header {
+  background: #ffffff;
+}
+
+/* logo */
+.logo {
+  text-decoration: none;
+  color: #000000;
+  /* font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px; */
+  /* identical to box height */
+
+  /* letter-spacing: 0.03em; */
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+/* site-nav */
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* auth-nav */
+.auth-nav .link {
+  color: #757575;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: #2196f3;
+}
+
 /* цвет заголовков темный color: #212121; */
-/* цвет вторичный + абзацев серый color: #757575; */
+/* цвет абзацев серый color: #757575; */
 /* вторичный белый color: #FFFFFF; */
 /* цвет web + :hover синий color: #2196F3; */
 /* цвет кнопок background: #2196F3; */
 /* цвет Studio черный color: #000000; */
+/* фон background: #E5E5E5; */
+/* вторичный background: #2F303A; */
