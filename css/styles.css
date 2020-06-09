@@ -108,6 +108,14 @@
   color: var(--h3-color);
 }
 
+.footer-social {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social a:hover,
+.footer-social a:focus {
+  background-color: var(--accent-color);
+}
 /* button */
 
 .button {
