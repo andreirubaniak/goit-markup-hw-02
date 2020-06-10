@@ -1,10 +1,15 @@
 /* body */
 .page {
-  background: #e5e5e5;
+  /* геометрия */
+
+  /* цвет и текст */
+  background-color: #e5e5e5;
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+
+  /* динамика */
 }
 
 /* header */
